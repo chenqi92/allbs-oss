@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * 类 OssAutoConfiguration
@@ -17,7 +16,6 @@ import org.springframework.context.annotation.Configuration;
  * @author ChenQi
  * @since 2022/11/4 13:48
  */
-@Configuration(proxyBeanMethods = false)
 @EnableConfigurationProperties({OssProperties.class})
 public class OssAutoConfiguration {
 
